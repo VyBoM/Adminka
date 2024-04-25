@@ -15,3 +15,5 @@ app.use(cors, bodyParser.json(), express.static(path.join(__dirname, "public")),
 app.listen(PORT, () => {
 	console.log(`Приложение запущено тут: http://localhost:${PORT}`);
 });
+
+//Для pull requests
